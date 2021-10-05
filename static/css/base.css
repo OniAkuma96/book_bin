@@ -1,0 +1,38 @@
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Lobster', cursive; */
+
+body {
+    background: url('/media/hero-image1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 88px);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* navbar */
+.main-nav-logo {
+    font-family: 'Lobster', cursive;
+    color: #9f9f9f !important;
+}
+
+/* text */
+.text-grey {
+    color: #9f9f9f !important;
+}
+
+/* buttons */
+.btn-grey {
+    background-color: #9f9f9f;
+}
+
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+}
+
+/* colors */
+.bg-maroon {
+    background-color: #540404;
+}
+
+/* media queries */
