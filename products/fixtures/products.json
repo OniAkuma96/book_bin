@@ -1,0 +1,750 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Southern Gothic",
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "3.99",
+            "image": "81gepf1eMqL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81gepf1eMqL.jpg"
+
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Dystopian",
+            "title": "Nineteen Eighty-Four",
+            "author": "George Orwell",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "2.99",
+            "image": "91SZSW8qSsL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91SZSW8qSsL.jpg"
+
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Tragedy",
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "2.99",
+            "image": "CK-3.jpg",
+            "image_url": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780743273565/the-great-gatsby-9780743273565_hr.jpg"
+
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Coming-of-age",
+            "title": "The Catcher in the Rye",
+            "author": "J. D. Salinger",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "3.49",
+            "image": "5107.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81OthjkJBuL.jpg"
+
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Dark Comedy",
+            "title": "Catch-22",
+            "author": "Joseph Heller",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "2.99",
+            "image": "cvr9781451621174_9781451621174_hr.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91Bk2JnHJHL.jpg"
+
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Allegorical Novel",
+            "title": "The Lord of the Flies",
+            "author": "William Golding",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "2.99",
+            "image": "81q2N5pxuML.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81q2N5pxuML.jpg"
+
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Modernist Novel",
+            "title": "Ulysses",
+            "author": "James Joyce",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "2.99",
+            "image": "JoyceUlysses2.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/JoyceUlysses2.jpg"
+
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Fantasy",
+            "title": "The Hobbit",
+            "author": "J. R. R. Tolkien",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "2.99",
+            "image": "5907.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/A1E+USP9f8L.jpg"
+
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Romance",
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "2.99",
+            "image": "9781847493699.jpg",
+            "image_url": "https://almabooks.com/wp-content/uploads/2016/10/9781847493699.jpg"
+
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Romance",
+            "title": "Jane Eyre",
+            "author": "Charlotte Brontë",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "2.99",
+            "image": "9780307455192.jpg",
+            "image_url": "https://almabooks.com/wp-content/uploads/2016/10/9781847493736.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Autobiography",
+            "title": "Troy Deeney: Redemption",
+            "author": "Troy Deeney",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "14.99",
+            "image": "61Ee39VqFDL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/61Ee39VqFDL.jpg"
+
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Autobiography",
+            "title": "And Away...",
+            "author": "Bob Mortimer",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "14.99",
+            "image": "81EnlXkL25L.jpg",
+            "image_url": "https://m.media-amazon.com/images/I/81EnlXkL25L.jpg"
+
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Self Help",
+            "title": "You Are A Champion",
+            "author": "Marcus Rashford",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.99",
+            "image": "81026-s2FyL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81026-s2FyL.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Autobiography",
+            "title": "How to Be a Rockstar",
+            "author": "Shaun Ryder",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "19.99",
+            "image": "518-sCjZ7ML._SX333_BO1,204,203,200_.jpg",
+            "image_url": "https://www.biblioimages.com/atlantic/getimage.aspx?class=books&assetversionid=177964&cat=default&size=origjpg&id=7881"
+
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Food & Drink",
+            "title": "Ramsay in 10: Delicious Recipes Made in a Flash",
+            "author": "Gordon Ramsay",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "19.99",
+            "image": "9781529364385.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71y89W-9pGS.jpg"
+
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Autobiography",
+            "title": "Alex Ferguson: My Autobiography",
+            "author": "Sir Alex Ferguson",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "8.99",
+            "image": "410cBgt+6PL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/711GtnphzWL.jpg"
+
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Food & Drink",
+            "title": "The Roasting Tin: Simple One Dish Dinners",
+            "author": "Rukumini Iyer",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "15.99",
+            "image": "91Ls1DK9q1L.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91Ls1DK9q1L.jpg"
+
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Autobiography",
+            "title": "More Than a Woman",
+            "author": "Caitlin Moran",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "810K+0GtYbL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/810K+0GtYbL.jpg"
+
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Autobiography",
+            "title": "The Storyteller: Tales of Life and Music",
+            "author": "Dave Grohl",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "15.99",
+            "image": "812ufIGbAmL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/812ufIGbAmL.jpg"
+
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Food & Drink",
+            "title": "Together: Memorable Meals Made Easy",
+            "author": "Jamie Oliver",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "9.99",
+            "image": "9780241431177.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81fFLfMKhWL.jpg"
+
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Children and Young Adult",
+            "sub_genre": "Horror",
+            "title": "Fear Street the Beginning",
+            "author": "R. L. Stine",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "8133wnWJ0hS.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/8133wnWJ0hS.jpg"
+
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Children and Young Adult",
+            "sub_genre": "Fantasy",
+            "title": "Lyra's Oxford",
+            "author": "Philip Pullman",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "9.99",
+            "image": "81E31Ubp+TL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81E31Ubp+TL.jpg"
+
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Children and Young Adult",
+            "sub_genre": "Fantasy",
+            "title": "The Monsters of Rookhaven",
+            "author": "Padraig Kenny",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "5.99",
+            "image": "919U1BjcLdL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/919U1BjcLdL.jpg"
+
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Children and Young Adult",
+            "sub_genre": "Adventure",
+            "title": "The Unexpected Tale of Bastien Bonlivre",
+            "author": "Clare Povey",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "5.99",
+            "image": "9781474986489.jpg",
+            "image_url": "https://www.bibdsl.co.uk/imagegallery2/publisher/batch3216/9781474986489.jpg"
+
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Children and Young Adult",
+            "sub_genre": "Picture Book",
+            "title": "The Hugasaurus",
+            "author": "Rachel Bright",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "4.99",
+            "image": "61A51oO8kKL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/616MhEFE-4S.jpg"
+
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Children and Young Adult",
+            "sub_genre": "Picture Book",
+            "title": "There's a Unicorn in Your Book",
+            "author": "Tom Fletcher",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "4.99",
+            "image": "81DhP8cp51L.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81DhP8cp51L.jpg"
+
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Children and Young Adult",
+            "sub_genre": "Fantasy",
+            "title": "Dragon City",
+            "author": "Katie Tsang",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "5.99",
+            "image": "dragon-city-9781471193125_hr.jpg",
+            "image_url": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781471193125/dragon-city-9781471193125_hr.jpg"
+
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Science Fiction",
+            "title": "The City We Became",
+            "author": "N. K. Jemisin",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "710PZ3fx-7L.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/710PZ3fx-7L.jpg"
+
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Crime",
+            "title": "Apples Never Fall",
+            "author": "Liane Moriarty",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "16.99",
+            "image": "81DJaCr88tL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81DJaCr88tL.jpg"
+
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Adventure",
+            "title": "Sharpe's Assassin",
+            "author": "Bernard Cornwell",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "14.99",
+            "image": "51pRAMrUHhL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81v7gy2Dh1L.jpg"
+
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Fantasy",
+            "title": "The Priory of the Orange Tree",
+            "author": "Samantha Shannon",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "8.99",
+            "image": "919PKAUBxAL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/919PKAUBxAL.jpg"
+
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Crime",
+            "title": "The Thursday Murder Club",
+            "author": "Richard Osman",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "81uHYq+cvkL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81uHYq+cvkL.jpg"
+
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Crime",
+            "title": "The Dark Remains",
+            "author": "Ian Rankin",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "17.99",
+            "image": "the_dark_remains-hardback-cover-9781838854102.jpg",
+            "image_url": "https://d243y1uga1q3sn.cloudfront.net/assets/files/377276/the_dark_remains-hardback-cover-9781838854102.jpg"
+
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Fantasy",
+            "title": "Piranesi",
+            "author": "Susanna Clarke",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "81KQ3i3NcZS.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81KQ3i3NcZS.jpg"
+
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Romance",
+            "title": "The Wolf Den",
+            "author": "Elodie Harper",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "81sl2EsSg7L.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81sl2EsSg7L.jpg"
+
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Romance",
+            "title": "It Ends With Us",
+            "author": "Colleen Hoover",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "817vqET828L.jpg",
+            "image_url": "https://m.media-amazon.com/images/I/817vqET828L.jpg"
+
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "History",
+            "title": "River Kings",
+            "author": "Cat Jarman",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "8.49",
+            "image": "91aHMUx1AHL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91aHMUx1AHL.jpg"
+
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Crime",
+            "title": "Slough House",
+            "author": "Mick Herron",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "81IQdsNHQsL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81IQdsNHQsL.jpg"
+
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Science Fiction",
+            "title": "Dune",
+            "author": "Frank Herbert",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "9.99",
+            "image": "9780340960196.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/A1u+2fY5yTL.jpg"
+
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Romance",
+            "title": "Normal People",
+            "author": "Sally Rooney",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "9780571334650.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/7112zfwmGgL.jpg"
+
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Thriller",
+            "title": "Small Pleasures",
+            "author": "Clare Chambers",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "71EmdT2epQL.jpg",
+            "image_url": "https://m.media-amazon.com/images/I/71EmdT2epQL.jpg"
+
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Philosophy",
+            "title": "Big Panda and Tiny Dragon",
+            "author": "James Norbury",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "12.99",
+            "image": "71UZiYClqOL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71UZiYClqOL.jpg"
+
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Children and Young Adult",
+            "sub_genre": "Romance",
+            "title": "A Court of Thorns and Roses",
+            "author": "Sarah J. Maas",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.99",
+            "image": "51+cRmmuPMS.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81DNT0Q22yL.jpg"
+
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Comedy",
+            "title": "How to Survive Family Holidays",
+            "author": "Jack Whitehall",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "14.99",
+            "image": "71BFv3+MPuL.jpg",
+            "image_url": "https://cdn.slidesharecdn.com/ss_thumbnails/how-to-survive-family-holidays-210818042910-thumbnail-4.jpg?cb=1629261366"
+
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Romance",
+            "title": "The Seven Husbands of Evelyn Hugo",
+            "author": "Taylor Jenkins Reid",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "8.99",
+            "image": "9781982147662.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81browCHrSL.jpg"
+
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Romance",
+            "title": "The House in the Cerulean Sea",
+            "author": "Tj Klune",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.49",
+            "image": "81MnY8Q7OLL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81MnY8Q7OLL.jpg"
+
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Romance",
+            "title": "Kingdom of the Wicked",
+            "author": "Kerri Maniscalco",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "8.99",
+            "image": "71eogwoDRFL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71eogwoDRFL.jpg"
+
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Science",
+            "title": "Entangled Life",
+            "author": "Merlin Sheldrake",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "8.99",
+            "image": "91vS+YL3t-L.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91vS+YL3t-L.jpg"
+
+        }
+    },
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Fiction",
+            "sub_genre": "Science Fiction",
+            "title": "Foundation",
+            "author": "Isaac Asimov",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "7.99",
+            "image": "foundation.jpg",
+            "image_url": "https://astrofella.files.wordpress.com/2018/12/foundation.jpg"
+
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "main_genre": "Non-Fiction",
+            "sub_genre": "Autobiography",
+            "title": "A Year on Our Farm",
+            "author": "Matt Baker",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "price": "17.99",
+            "image": "91K2cGHX8nL.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91K2cGHX8nL.jpg"
+
+        }
+    }
+]
