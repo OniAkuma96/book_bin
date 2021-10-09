@@ -2,11 +2,50 @@
 {% load static %}
 
 {% block content %}
-    <div class="container" style="padding-top: 88px;">
+    <div class="overlay" style="height: 100%;width: 100%;top: 0;left: 0;position: fixed;background: white;z-index: -1;"></div>
+    <div class="container-fluid products-container" style="padding-top: 100px;">
         <div class="row">
-            <div class="col">
-                {{ products }}
-            </div>
+            {% for product in products %}
+                <div class="col-12 col-md-4 col-lg-2 mb-2">
+                    <div class="card h-100">
+                        {% if product.image %}
+                            <a href="">
+                                <img src="{{ product.image.url }}" alt="{{ product.title }} cover" class="card-img-top img-fluid">
+                            </a>
+                        {% else %}
+                            <a href="">
+                                <img src="{{ MEDIA_URL }}noimage.png" alt="{{ product.title }} cover" class="card-img-top img-fluid">
+                            </a>
+                        {% endif %}
+                        <div class="card-body">
+                            <div class="row">
+                                <h4>{{ product.title }}</h4>
+                            </div>
+                            <div class="row">
+                                <p>{{ product.author }}</p>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0">
+                            <div class="row text-center">
+                                <div class="col-6">
+                                    <p class="">5/5</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class=""><strong>£{{ product.price }}</strong></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="" class="btn btn-grey p-1 w-100">Reviews</a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="" class="btn btn-grey p-1 w-100">Add to Bag</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
     </div>
 {% endblock %}
