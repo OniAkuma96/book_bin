@@ -44,7 +44,7 @@
                     <a href="{% url 'home' %}" class="nav-link navbar-brand"><h2 class="main-nav-logo ">Book Bin</h2></a>
                 </div>
                 <div class="col-4 my-auto">
-                    <form method="GET" action="">
+                    <form method="GET" action="{% url 'products' %}">
                         <div class="input-group">
                             <input type="text" name="q" placeholder="Search our site" class="form-control">
                             <div class="input-group-append">
