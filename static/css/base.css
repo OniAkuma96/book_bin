@@ -30,6 +30,11 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/
     max-width: 400px;
 }
 
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 /* navbar */
 .main-nav-logo {
     font-family: 'Lobster', cursive;
