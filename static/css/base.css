@@ -30,11 +30,6 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/
     max-width: 400px;
 }
 
-.update-link,
-.remove-item {
-    cursor: pointer;
-}
-
 /* navbar */
 .main-nav-logo {
     font-family: 'Lobster', cursive;
@@ -57,9 +52,30 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/
     min-width: 260px;
 }
 
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 /* colors */
 .bg-maroon {
     background-color: #540404;
+}
+
+/* toasts */
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
 }
 
 /* media queries */

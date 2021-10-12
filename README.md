@@ -68,6 +68,8 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 - [Code for button logic taken from. Code is used in quantity_input_script.html](https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob/0a5335f2e95f58b10207ea57cedcdd063251a3ff/products/templates/products/includes/quantity_input_script.html)
 
+- [Code for toasts taken from Code Institute Boutique Ado Project](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/e5323862cc7563f65526f0108f37c57ad92f7931/templates/includes/toasts)
+
 ### Content
 
 ### Media
