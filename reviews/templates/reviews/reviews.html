@@ -3,5 +3,25 @@
 
 {% block content %}
     <div class="overlay"></div>
-    <h1 style="padding-top: 88px;">Reviews Page</h1>
+    <div class="container-fluid review-options-container">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center">Reviews For {{ product.title }}</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-6">
+                <img src="{{ product.image.url }}" alt="{{ product.title }} cover" class="img-fluid float-right p-1" style="max-height: 200px;">
+            </div>
+            <div class="col-6">
+                <div class="list-group" id="rating-list" role="tablist">
+                    <a href="" class="list-group-item list-group-item-action active" data-toggle="list" role="tab"><strong>5/5</strong></a>
+                    <a href="" class="list-group-item list-group-item-action" data-toggle="list" role="tab"><strong>4/5</strong></a>
+                    <a href="" class="list-group-item list-group-item-action" data-toggle="list" role="tab"><strong>3/5</strong></a>
+                    <a href="" class="list-group-item list-group-item-action" data-toggle="list" role="tab"><strong>2/5</strong></a>
+                    <a href="" class="list-group-item list-group-item-action" data-toggle="list" role="tab"><strong>1/5</strong></a>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
