@@ -60,6 +60,14 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 ### Code
 
+- [Code for overlay from Code Institute Boutique Ado project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/71413627006c4cac9b18a1de1e12a4ff/)
+
+- [Script for update/remove button logic taken from Code Institute Boutique Ado project. Script is used in bag.html](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/01a6e729849c489b88b9a6810f05c47d/)
+
+- [Code for quantity form taken from Code Institute Boutique Ado project](https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob/21e3b111100f5c8daa4bc6e9565bde09980b33d8/products/templates/products/product_detail.html)
+
+- [Code for button logic taken from. Code is used in quantity_input_script.html](https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob/0a5335f2e95f58b10207ea57cedcdd063251a3ff/products/templates/products/includes/quantity_input_script.html)
+
 ### Content
 
 ### Media
