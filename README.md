@@ -70,6 +70,8 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 - [Code for toasts taken from Code Institute Boutique Ado Project](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/e5323862cc7563f65526f0108f37c57ad92f7931/templates/includes/toasts)
 
+- [Code for checkout models](https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob/faaa31bcbd1bcc5fdf7d54c57d51c031df9d7460/checkout/models.py)
+
 ### Content
 
 ### Media
