@@ -66,12 +66,12 @@
                 <p>Please fill out the form below to complete your order</p>
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                     {% csrf_token %}
-                    <fieldset>
+                    <fieldset class="px-3 mb-5">
                         <legend class="fieldset-label">Details</legend>
                         {{ order_form.full_name | as_crispy_field }}
                         {{ order_form.email | as_crispy_field }}
                     </fieldset>
-                    <fieldset>
+                    <fieldset class="px-3 mb-5">
                         <legend class="fieldset-label">Delivery</legend>
                         {{ order_form.phone_number | as_crispy_field }}
                         {{ order_form.street_address1 | as_crispy_field }}
@@ -83,7 +83,7 @@
                         <div class="form-check form-check-inline">
                             {% if user.is_authenticated %}
                                 <label class="form-check-label" for="id-save-info">Save this delivery information to my profile</label>
-                                <input type="checkbox" id="id-save-info" name="save-info" class="form-check-input" checked>
+                                <input type="checkbox" id="id-save-info" name="save-info" class="form-check-input ml-2" checked>
                             {% else %}
                                 <label for="id-save-info" class="form-check-label">
                                     <a href="{% url 'account_signup' %}" class="text-info">Create an account</a> or
@@ -92,7 +92,7 @@
                             {% endif %}
                         </div>
                     </fieldset>
-                    <fieldset>
+                    <fieldset class="px-3 mb-5">
                         <legend class="fieldset-label">Payment</legend>
                         <div id="card-element"></div>
                         <div class="text-danger" id="card-errors" role="alert"></div>
