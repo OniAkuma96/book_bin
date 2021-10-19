@@ -77,3 +77,14 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/
 }
 
 /* media queries */
+@media (max-width: 1194px) {
+    .container-padding {
+        padding-top: 122px;
+    }
+}
+
+@media (max-width: 423px) {
+    .container-padding {
+        padding-top: 162px;
+    }
+}
