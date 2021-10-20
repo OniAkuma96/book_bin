@@ -164,10 +164,17 @@
             </div>
             <div class="row">
                 <div class="col-12 col-lg-7 text-right">
-                    <a href="" class="btn btn-grey my-2">
-                        <i class="fas fa-gifts"></i>
-                        <span class="text-uppercase">Now check out the latest deals!</span>
-                    </a>
+                    {% if from_profile %}
+                        <a href="{% url 'profile' %}" class="btn btn-grey">
+                            <i class="fas fa-angle-left"></i>
+                            <span class="text-uppercase">Back to Profile</span>
+                        </a>
+                    {% else %}
+                        <a href="" class="btn btn-grey my-2">
+                            <i class="fas fa-gifts"></i>
+                            <span class="text-uppercase">Now check out the latest deals!</span>
+                        </a>
+                    {% endif %}
                 </div>
             </div>
         </div>
