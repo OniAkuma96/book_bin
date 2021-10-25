@@ -60,7 +60,7 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
     1. I created a new app on Heroku with the region closest to me, Europe.
 
-    2. Next I submitted an order form for the Heroku Postgres add-on which is needed for the database. I used the free plan for this project. I also had to install dj_database_url and psychopg2 in gitpod for this to work.
+    2. Next I submitted an order form for the Heroku Postgres add-on which is needed for the database. I used the free plan for this project. I also had to install dj_database_url and psychopg2 and freeze to requirements.txt in gitpod for this to work.
 
     3. Next I imported dj_database_url to my project's settings.py file and rewrote the databases code to use dj_database_url. As I am now connecting to postgres for my database I need to run all migrations again. So I did this using: python3 manage.py migrate.
 
@@ -69,6 +69,18 @@ My goal here is to create an attractive e-commerce book site. The site will have
     5. Next I created a superuser for my new database using createsuperuser command in gitpod.
 
     6. Now that my new database is setup I also removed the Heroku database url from settings.py so it does not appear in version control.
+
+    7. Next I created an if statement in settings.py to see if the variable 'DATABASE_URL' is in the environment variables. If it is then we tell our project to use that url for our database setting, and if not then use the default sqlite3 configuration.
+
+    8. Installed gunicorn and freeze it to requirements.txt. Gunicorn will act as web server.
+
+    9. Created Procfile to tell Heroku to create a web dyno.
+
+    10. Logged in to Heroku in gitpod CLI using command heroku login -i and entering credentials. Then temporarily disabled collection of static files so Heroku will not try to collect static files when I deploy, command heroku config:set DISABLE_COLLECTSTATIC=1
+
+    11. Added host name of Herkou app to allowed hosts in settings.py with localhost added too so it will still work in gitpod.
+
+    12. 
 
 ## Credits
 
