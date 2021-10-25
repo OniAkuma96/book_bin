@@ -56,6 +56,20 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 ## Deployment
 
+- Here are the steps I went through to deploy my project. I used Heroku for deployment and AWS to store static files.
+
+    1. I created a new app on Heroku with the region closest to me, Europe.
+
+    2. Next I submitted an order form for the Heroku Postgres add-on which is needed for the database. I used the free plan for this project. I also had to install dj_database_url and psychopg2 in gitpod for this to work.
+
+    3. Next I imported dj_database_url to my project's settings.py file and rewrote the databases code to use dj_database_url. As I am now connecting to postgres for my database I need to run all migrations again. So I did this using: python3 manage.py migrate.
+
+    4. Next I imported all my product data. As I had made a json fixtures file I could do this by using loaddata command in gitpod.
+
+    5. Next I created a superuser for my new database using createsuperuser command in gitpod.
+
+    6. Now that my new database is setup I also removed the Heroku database url from settings.py so it does not appear in version control.
+
 ## Credits
 
 ### Code
