@@ -80,7 +80,11 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
     11. Added host name of Herkou app to allowed hosts in settings.py with localhost added too so it will still work in gitpod.
 
-    12. 
+    12. To deploy to Heroku I first initialized Heroku git remote with command heroku git:remote -a app name, then pushed to Heroku with git push heroku.
+
+    13. Next I setup my app so it would automatically deploy to Heroku when I push to github by clicking connect to Github button on deploy tab of app, finding repository and connecting the two. Lastly I enabled automatic deploys.
+
+    14. Generated django secret key, added to config variables in Heroku, and in settings.py changed secret_key variable to get from environment.
 
 ## Credits
 
