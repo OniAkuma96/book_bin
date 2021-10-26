@@ -58,6 +58,8 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 - Here are the steps I went through to deploy my project. I used Heroku for deployment and AWS to store static files.
 
+- Part 1 - deploying to Heroku
+
     1. I created a new app on Heroku with the region closest to me, Europe.
 
     2. Next I submitted an order form for the Heroku Postgres add-on which is needed for the database. I used the free plan for this project. I also had to install dj_database_url and psychopg2 and freeze to requirements.txt in gitpod for this to work.
@@ -84,7 +86,37 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
     13. Next I setup my app so it would automatically deploy to Heroku when I push to github by clicking connect to Github button on deploy tab of app, finding repository and connecting the two. Lastly I enabled automatic deploys.
 
-    14. Generated django secret key, added to config variables in Heroku, and in settings.py changed secret_key variable to get from environment.
+    14. Generated django secret key, added to config variables in Heroku, and in settings.py changed secret_key variable to get from environment. Now when pushing to github I can see a build in progress on Heroku which means automatic deployment is working.
+
+- Part 2 - Using AWS to host static files
+
+    1. Created new S3 bucket with the region closest to my location and unchecking block all public access setting.
+
+    2. Enabled static website hosting in bucket's properties settings tab.
+
+    3. Changed settings in permissions tab of bucket - cors configorations to allowedheaders: authorization, allowedmethods of GET, all allowedorigins and exposeheaders.
+
+    4. Next in bucket policy setting clicked generate policy to create a security policy for bucket. The type being S3, allowing all principals and the action is get object. Pasted in amazon resource name and clicked add statement, then generate policy, then copied policy to bucket policy editor.
+
+    5. Navigated to access control list tab and set list objects permission for everyone under public access section.
+
+    6. Went back to AWS services menu to click on IAM to create a user to access bucket.
+
+    7. Created new group for user to be in.
+
+    8. Next created policy for group. Searched for S3 and imported S3 full access policy. Copied ARN from bucket policy and pasted it into the resource section of policy.
+
+    9. Navigate back to groups and attatch policy just created to group.
+
+    10. Create user and put user in group. Then downloaded users credentials csv.
+
+    11. Installed boto3 and django-storages then freeze requirements to requirements.txt, and added storages to installed apps in settings.py
+
+    12. In settings.py added a line of code to check if use aws is true and if it is to get the aws access key and secret key from the environment variables in Heroku.
+
+    13. Created custom_storages.py to tell our app where the static and media files are located.
+
+    14. 
 
 ## Credits
 
