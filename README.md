@@ -116,7 +116,7 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
     13. Created custom_storages.py to tell our app where the static and media files are located.
 
-    14. 
+    14. Commit changes and push to github - static files are now in bucket and loading on Heroku url.
 
 ## Credits
 
