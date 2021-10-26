@@ -118,6 +118,14 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
     14. Commit changes and push to github - static files are now in bucket and loading on Heroku url.
 
+    15. Set aws s3 cache parameters in settings.py
+
+    16. Created new folder in S3 bucket called media. Uploaded book covers and other media images to folder and granted public read access to these objects.
+
+    17. Added stripe keys to Heroku config vars.
+
+    18. Created new webhook endpoint that sends webhooks to heroku location. Added webhook signing secret to heroku config vars.
+
 ## Credits
 
 ### Code
