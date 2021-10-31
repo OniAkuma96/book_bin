@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
+
 from .models import Product
+from reviews.models import Review
 
 
 def all_products(request):
@@ -39,9 +41,11 @@ def all_products(request):
 def product_detail(request, product_id):
     """ A view to show details of an individual product """
     product = get_object_or_404(Product, pk=product_id)
+    reviews = Review.objects.all()
 
     context = {
         'product': product,
+        'reviews': reviews,
     }
 
     return render(request, 'products/product_detail.html', context)
