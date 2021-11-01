@@ -2,11 +2,12 @@
 {% load static %}
 
 {% block content %}
+    <div class="overlay"></div>
     <div class="container-fluid container-padding">
-        <div class="overlay"></div>
-        <hr>
-        <h1>Write a Review for </h1>
-        <hr>
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center">Write a Review for {{ product.title }}</h2>
+            </div>
+        </div>
     </div>
-    
 {% endblock %}

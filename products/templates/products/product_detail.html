@@ -67,7 +67,7 @@
             {% endfor %}
         {% else %}
             <p class="text-center">
-                There are no reviews of this product yet. <a href="{% url 'new_review' %}">Be the first to write one!</a>
+                There are no reviews of this product yet. {% if user.is_authenticated %}<a href="{% url 'new_review' product.id %}">Be the first to write one!</a>{% endif %}
             </p>
         {% endif %}
     </div>
