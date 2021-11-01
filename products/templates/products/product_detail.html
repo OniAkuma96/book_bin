@@ -61,9 +61,15 @@
                 <hr>
             </div>
         </div>
-        {% for review in reviews %}
-            {{ review }}
-        {% endfor %}
+        {% if reviews %}
+            {% for review in reviews %}
+                {{ review }}
+            {% endfor %}
+        {% else %}
+            <p class="text-center">
+                There are no reviews of this product yet. <a href="">Be the first to write one!</a>
+            </p>
+        {% endif %}
     </div>
 {% endblock %}
 
