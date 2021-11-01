@@ -9,5 +9,14 @@
                 <h2 class="text-center">Write a Review for {{ product.title }}</h2>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <form method="POST" action="{% url 'product_detail' product.id %}" class="form" id="new_review_form">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <button class="btn btn-grey">Submit</button>
+                </form>
+            </div>
+        </div>
     </div>
 {% endblock %}
