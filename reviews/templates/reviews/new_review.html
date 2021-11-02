@@ -10,11 +10,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                <form method="POST" action="{% url 'product_detail' product.id %}" class="form" id="new_review_form">
+            <div class="col-12 col-lg-6">
+                <form method="POST" action="{% url 'new_review' product.id %}" class="form" id="new_review_form">
                     {% csrf_token %}
-                    {{ form|crispy }}
-                    <button class="btn btn-grey">Submit</button>
+                    {{ form | crispy }}
+                    <div class="text-center">
+                        <button class="btn btn-grey" type="submit">Submit</button>
+                    </div>
                 </form>
             </div>
         </div>
