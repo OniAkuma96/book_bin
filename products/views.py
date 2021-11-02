@@ -3,8 +3,8 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 
-from .models import Product
 from reviews.models import Review
+from .models import Product
 from .forms import ProductForm
 
 
@@ -13,18 +13,24 @@ def all_products(request):
 
     products = Product.objects.all()
     query = None
-    genre = None
+    main_genre = None
 
     if request.GET:
-        if 'genre' in request.GET:
-            genre = request.GET['genre']
-            products = products.filter(main_genre__in=genre)
+        if 'main_genre' in request.GET:
+            main_genre = request.GET['main_genre']
+            if main_genre == 'fiction':
+                products = products.filter(main_genre='Fiction')
+            elif main_genre == 'non-fiction':
+                products = products.filter(main_genre='Non-Fiction')
+            else:
+                products = products.filter(main_genre='Children and Young Adult')
+            
 
         if 'q' in request.GET:
             query = request.GET['q']
-            # if not query:
-            #     messages.error(request, "You didn't enter any search criteria!")
-            #     return redirect(reverse('products'))
+            if not query:
+                messages.error(request, "You didn't enter any search criteria!")
+                return redirect(reverse('products'))
         
             queries = (
                 Q(title__icontains=query) | Q(author__icontains=query) | Q(sub_genre__icontains=query)
@@ -34,7 +40,7 @@ def all_products(request):
     context = {
         'products': products,
         'search_term': query,
-        'genre': genre,
+        'main_genre': main_genre,
     }
 
     return render(request, 'products/products.html', context)

@@ -52,9 +52,9 @@
                         <li class="list-inline-item dropdown">
                             <a href="" class="nav-link text-white responsive-font" id="genre-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genres</a>
                             <div class="dropdown-menu" aria-labelledby="genre-options">
-                                <a href="{% url 'products' %}?genre=Fiction" class="dropdown-item"><strong>Fiction</strong></a>
-                                <a href="{% url 'products' %}?genre=Non-Fiction" class="dropdown-item"><strong>Non-Fiction</strong></a>
-                                <a href="{% url 'products' %}?genre=Children" class="dropdown-item"><strong>Children & Young Adult</strong></a>
+                                <a href="{% url 'products' %}?main_genre=fiction" class="dropdown-item"><strong>Fiction</strong></a>
+                                <a href="{% url 'products' %}?main_genre=non-fiction" class="dropdown-item"><strong>Non-Fiction</strong></a>
+                                <a href="{% url 'products' %}?main_genre=children&youngadult" class="dropdown-item"><strong>Children & Young Adult</strong></a>
                             </div>
                         </li>
                     </ul>
