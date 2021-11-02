@@ -1,6 +1,3 @@
-/* font-family: 'IBM Plex Sans', sans-serif;
-font-family: 'Lobster', cursive; */
-
 body {
     background: url('/media/hero-image1.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -8,8 +5,6 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-/* code for overlay taken from
-https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/71413627006c4cac9b18a1de1e12a4ff/ */
 .overlay {
     height: 100%;
     width: 100%;

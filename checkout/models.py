@@ -1,6 +1,3 @@
-# checkout model taken and edited slightly from
-# https://github.com/Code-Institute-Solutions/boutique_ado_v1/blob/faaa31bcbd1bcc5fdf7d54c57d51c031df9d7460/checkout/models.py
-
 import uuid
 
 from django.db import models
