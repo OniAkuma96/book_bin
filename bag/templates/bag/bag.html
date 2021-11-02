@@ -28,7 +28,11 @@
                             {% for item in bag_items %}
                                 <tr>
                                     <td class="w-25">
-                                        <img src="{{ item.product.image.url }}" alt="{{ item.product.title }} cover" class="img-fluid" style="max-height: 300px;">
+                                        {% if product.image %}
+                                            <img src="{{ item.product.image.url }}" alt="{{ item.product.title }} cover" class="img-fluid" style="max-height: 300px;">
+                                        {% else %}
+                                            <img src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.title }}" class="img-fluid" style="max-height: 300px;">
+                                        {% endif %}
                                     </td>
                                     <td>
                                         <p><strong>{{ item.product.title }}</strong></p>
