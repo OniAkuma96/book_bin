@@ -4,9 +4,10 @@ from django.contrib import messages
 from products.models import Product
 from .forms import NewReviewForm
 
+
 def new_review(request, product_id):
     if request.method == 'POST':
-        form = NewReviewForm(request.POST, request.FILES)
+        form = NewReviewForm()
         if form.is_valid():
             product = form.save()
             messages.success(request, 'Successfully added review!')

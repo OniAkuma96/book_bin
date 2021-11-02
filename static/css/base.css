@@ -164,10 +164,19 @@ body {
     .container-padding {
         padding-top: 122px;
     }
+
+    .responsive-font {
+        font-size: 90%;
+        padding: 0;
+    }
 }
 
 @media (max-width: 423px) {
     .container-padding {
         padding-top: 162px;
+    }
+
+    .mobile-ul {
+        font-size: 74%;
     }
 }
