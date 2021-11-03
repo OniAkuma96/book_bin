@@ -129,9 +129,9 @@
                             <li class="nav-item dropdown">
                                 <a href="" class="nav-link text-white" id="genre-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genres</a>
                                 <div class="dropdown-menu" aria-labelledby="genre-options">
-                                    <a href="" class="dropdown-item"><strong>Fiction</strong></a>
-                                    <a href="" class="dropdown-item"><strong>Non-Fiction</strong></a>
-                                    <a href="" class="dropdown-item"><strong>Children & Young Adult</strong></a>
+                                    <a href="{% url 'products' %}?main_genre=fiction" class="dropdown-item"><strong>Fiction</strong></a>
+                                    <a href="{% url 'products' %}?main_genre=non-fiction" class="dropdown-item"><strong>Non-Fiction</strong></a>
+                                    <a href="{% url 'products' %}?main_genre=children&youngadult" class="dropdown-item"><strong>Children & Young Adult</strong></a>
                                 </div>
                             </li>
                         </ul>
