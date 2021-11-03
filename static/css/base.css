@@ -1,5 +1,5 @@
 body {
-    background: url('/media/hero-image1.jpg') no-repeat center center fixed;
+    background: url('/media/hero-image13.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 88px);
     font-family: 'IBM Plex Sans', sans-serif;
@@ -48,10 +48,9 @@ body {
     background-color: #9f9f9f;
 }
 
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
+.btn-maroon {
+    background-color: #540404;
+    color: #fff;
 }
 
 .update-link,
