@@ -36,6 +36,11 @@ body {
 .main-nav-logo {
     font-family: 'Lobster', cursive;
     color: #fff !important;
+    margin-bottom: 0;
+}
+
+.margin-remover {
+    margin-bottom: 0;
 }
 
 /* text */
