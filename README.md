@@ -1,6 +1,6 @@
 <h1 align="center">Book Bin</h1>
 
-My goal here is to create an attractive e-commerce book site. The site will have a library of books that users can purchase to be sent to their homes. The site will also feature reviews of books that registered users can write and upload themselves. All books will have a star rating out of five where all registered users can rate the books they have read, with the overall rating being displayed. Registered users will also have the ability to create their own lists which will be displayed on their profile page, for example their favourite books list or their reading list for books they want to read next. These lists could be public, viewable to anyone, or private, only viewable to the user who created the list. Registered users will also be eligable for certain deals/offers and will have the ability to sign up for a subscription service.
+My goal here is to create an attractive e-commerce book site. The site will have a library of books that users can purchase to be sent to their homes. The site will also feature reviews of books that registered users can write and upload themselves. All books will have a star rating out of five where all registered users can rate the books they have read, with the overall rating being displayed.
 
 ## User Experience (UX)
 
@@ -14,7 +14,7 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
         3. As a non-registered user, I want to read reviews and ratings of a book I am interested in.
 
-        4. As a non-registerd user, I want to sign up to write reviews, create lists, and recieve offers and deals.
+        4. As a non-registerd user, I want to sign up.
 
     - #### Registered users
 
@@ -26,10 +26,6 @@ My goal here is to create an attractive e-commerce book site. The site will have
         
         4. As a registered user, I want to write a review of a book I have recently read.
 
-        5. As a registered user, I want to make a reading list of the books I want to read next.
-
-        6. As a registered user, I want to sign up for the subscription service.
-
 - ### Design
 
     - The color scheme for the site will be white and maroon.
@@ -40,11 +36,46 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 ## Features
 
+- 
+
 ## Technologies Used
+
+- [Google fonts](https://fonts.google.com/)
+    - For a variety of fonts
+
+- [Font Awsome](https://fontawesome.com/)
+    - For icons
+
+- [Heroku](https://www.heroku.com)
+    - For deployment
+
+- [Amazon Web Services](https://aws.amazon.com/)
+    - For hosting of static files and media
 
 ### Languages Used
 
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+    - For page content
+
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+    - For styling page content
+
+- [Javascript](https://www.javascript.com/)
+    - 
+
+- [jQuery](https://jquery.com/)
+    - For simple DOM manipulation
+
+- [Python 3](https://docs.python.org/3/)
+    - 
+
 ### Frameworks, Libaries, and Programs Used
+
+- [Bootstrap v4.4](https://getbootstrap.com/)
+    - For a website framework
+
+- [Django](https://docs.djangoproject.com/en/3.2/)
+    - For a full-stack framework
 
 ## Testing
 
@@ -134,8 +165,6 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 ### Media
 
-- [hero image](https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1590&q=80)
-
-- [hero image 2](https://unsplash.com/photos/lUaaKCUANVI)
+- [homepage hero image](https://wallpaperscraft.com/wallpaper/book_reading_glasses_208214)
 
 ### Acknowledgements
