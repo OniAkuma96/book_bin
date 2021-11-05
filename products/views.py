@@ -49,11 +49,11 @@ def all_products(request):
 def product_detail(request, product_id):
     """ A view to show details of an individual product """
     product = get_object_or_404(Product, pk=product_id)
-    reviews = Review.objects.all()
+    # reviews = Review.objects.get(product=product_id)
 
     context = {
         'product': product,
-        'reviews': reviews,
+        # 'reviews': reviews,
     }
 
     return render(request, 'products/product_detail.html', context)
