@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import MaxValueValidator, MinValueValidator
 
 from products.models import Product
 from profiles.models import UserProfile
@@ -9,7 +10,7 @@ class Review(models.Model):
     product = models.OneToOneField(Product, on_delete=models.CASCADE)
     date = models.DateTimeField(auto_now_add=True)
     comment = models.TextField()
-    rating = models.DecimalField(max_digits=6, decimal_places=2)
+    rating = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(5)])
 
     def __str__(self):
         return self.created_by

@@ -61,7 +61,7 @@ My goal here is to create an attractive e-commerce book site. The site will have
     - For styling page content
 
 - [Javascript](https://www.javascript.com/)
-    - 
+    - For DOM manipulation
 
 - [jQuery](https://jquery.com/)
     - For simple DOM manipulation
