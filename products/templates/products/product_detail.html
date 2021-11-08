@@ -61,13 +61,40 @@
         <div class="row">
             <div class="col text-center my-auto">
                 <hr>
-                <h4 class="text-center">Reviews</h4>
+                <h4 class="text-center">Reviews of {{ product.title }}</h4>
                 <hr>
             </div>
         </div>
         {% if reviews %}
             {% for review in reviews %}
-                {{ review }}
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h5>By {{ review.created_by }} at {{ review.date }}</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p>
+                            {% if review.rating == 'Five' %}
+                                5
+                            {% elif review.rating == 'Four' %}
+                                4
+                            {% elif review.rating == 'Three' %}
+                                3
+                            {% elif review.rating == 'Two' %}
+                                2
+                            {% elif review.rating == 'One' %}
+                                1
+                            {% endif %}
+                            <i class="fas fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        {{ review.comment }}
+                    </div>
+                </div>
             {% endfor %}
         {% else %}
             <p class="text-center">
