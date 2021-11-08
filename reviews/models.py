@@ -5,8 +5,8 @@ from profiles.models import UserProfile
 
 
 class Review(models.Model):
-    created_by = models.ForeignKey(UserProfile, on_delete=models.SET_NULL, null=True, blank=True)
-    product = models.OneToOneField(Product, on_delete=models.CASCADE)
+    created_by = models.ForeignKey(UserProfile, on_delete=models.SET_NULL, null=True)
+    product = models.OneToOneField(Product, on_delete=models.CASCADE, null=True)
     date = models.DateTimeField(auto_now_add=True)
     comment = models.TextField()
     rating_choices = [
@@ -21,6 +21,3 @@ class Review(models.Model):
         choices=rating_choices,
         default='Five',
     )
-
-    def __str__(self):
-        return self.created_by
