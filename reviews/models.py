@@ -1,5 +1,4 @@
 from django.db import models
-from django.core.validators import MaxValueValidator, MinValueValidator
 
 from products.models import Product
 from profiles.models import UserProfile
@@ -22,7 +21,6 @@ class Review(models.Model):
         choices=rating_choices,
         default='Five',
     )
-    # rating = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(5)])
 
     def __str__(self):
         return self.created_by
