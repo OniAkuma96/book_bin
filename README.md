@@ -34,6 +34,18 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 - ### Wireframes
 
+    - These are the wireframes that I made for this project. They can be found in /static/wireframes/ folder. Please note these were early plans I made before I started the development of the site and do not match the final product.
+
+    ![Homepage Web](/static/wireframes/homepage-web.png)
+    ![All Products Web](/static/wireframes/shop-web.png)
+    ![Product Detail Web](/static/wireframes/product-detail-web.png)
+    ![Homepage Tablet](/static/wireframes/homepage-tablet.png)
+    ![All Products Tablet](/static/wireframes/shop-tablet.png)
+    ![Product Detail Tablet](/static/wireframes/product-detail-tablet.png)
+    ![Homepage Mobile](/static/wireframes/homepage-mobile.png)
+    ![All Products Mobile](/static/wireframes/shop-mobile.png)
+    ![Product Detail Mobile](/static/wireframes/product-detail-mobile.png)
+
 ## Features
 
 - 
