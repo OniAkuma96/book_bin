@@ -6,7 +6,7 @@ from profiles.models import UserProfile
 
 class Review(models.Model):
     created_by = models.ForeignKey(UserProfile, on_delete=models.SET_NULL, null=True)
-    product = models.OneToOneField(Product, on_delete=models.CASCADE, null=True)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, null=True)
     date = models.DateTimeField(auto_now_add=True)
     comment = models.TextField()
     rating_choices = [
