@@ -203,6 +203,9 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 ### Code
 
+- This project was based on Code Institute's Boutique Ado walkthrough project and parts of that project have been reused here.
+    - 
+
 ### Content
 
 ### Media

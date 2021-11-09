@@ -184,3 +184,9 @@ body {
         font-size: 74%;
     }
 }
+
+@media (max-width: 320px) {
+    .nav-link {
+        padding: 0.25rem;
+    }
+}
