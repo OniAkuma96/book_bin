@@ -2,6 +2,8 @@
 
 [View the live project here.](https://book-bin.herokuapp.com/)
 
+![AmIResponsive mockup](/media/amiresponsive-ms4.png)
+
 My goal here is to create an attractive e-commerce book site. The site will have a library of books that users can purchase to be sent to their homes. The site will also feature reviews of books that registered users can write and upload themselves. All books will have a star rating out of five where all registered users can rate the books they have read, with the overall rating being displayed. I will use Stripe for a payment system and registered users will have the ability to save their delivery info to their profile and view their order history.
 
 ## User Experience (UX)
