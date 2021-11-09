@@ -1,5 +1,7 @@
 <h1 align="center">Book Bin</h1>
 
+[View the live project here.](https://book-bin.herokuapp.com/)
+
 My goal here is to create an attractive e-commerce book site. The site will have a library of books that users can purchase to be sent to their homes. The site will also feature reviews of books that registered users can write and upload themselves. All books will have a star rating out of five where all registered users can rate the books they have read, with the overall rating being displayed. I will use Stripe for a payment system and registered users will have the ability to save their delivery info to their profile and view their order history.
 
 ## User Experience (UX)
@@ -48,9 +50,56 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 ## Features
 
-- 
+### Existing Features
+
+- Navigation bar
+    - Home logo button
+    - All books button allows users to see all books on site
+    - Book genre allows users to filter by category
+    - Search bar allows users to search by title, author, or sub-genre
+    - Profile dropdown allows non-registered users to sign-in or register, allows registered users to view their profile or logout, and allows store owners to access the product management page for adding, editing, and deleting products
+    - Bag link with auto updating price value
+    - Logo, all books, and genre buttons collapse on medium screens and smaller
+
+- Responsive on all device sizes
+    - Products page will feature 6 books per row on extra large screens, 4 per row on large, 3 per row on medium, and 1 per row on small.
+
+### Features Left to Implement
 
 ## Technologies Used
+
+### Languages Used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+- [Javascript](https://www.javascript.com/)
+
+- [Python 3](https://docs.python.org/3/)
+
+### Frameworks, Libaries, and Programs Used
+
+- [Bootstrap v4.4](https://getbootstrap.com/)
+    - For a responsive website framework
+
+- [Bootstrap Toasts](https://getbootstrap.com/docs/4.3/components/toasts/)
+    - For displaying messages to users throughout the site
+
+- [Django](https://docs.djangoproject.com/en/3.2/)
+    - For a full-stack framework
+
+- [Django Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
+    - For Django login, logout, registering, email confirmation, password changes/reset, and everything to do with account authentication
+
+- [Django Countries](https://pypi.org/project/django-countries/)
+    - For the dropdown country selector on checkout page and profile
+
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+    - For styling and laout of all forms on site
+
+- [jQuery](https://jquery.com/)
+    - Used for simple DOM manipulation. Mainly in the logic for quantity buttons on product detail and bag pages
 
 - [Google fonts](https://fonts.google.com/)
     - For a variety of fonts
@@ -58,36 +107,17 @@ My goal here is to create an attractive e-commerce book site. The site will have
 - [Font Awsome](https://fontawesome.com/)
     - For icons
 
+- [Git](https://git-scm.com/)
+    - For version control through the Gitpod terminal to commit to Git and Push to GitHub
+
+- [GitHub](https://github.com/)
+    - Used to store the projects code after being pushed from Git
+
 - [Heroku](https://www.heroku.com)
     - For deployment
 
 - [Amazon Web Services](https://aws.amazon.com/)
     - For hosting of static files and media
-
-### Languages Used
-
-- [HTML](https://en.wikipedia.org/wiki/HTML)
-    - For page content
-
-- [CSS](https://en.wikipedia.org/wiki/CSS)
-    - For styling page content
-
-- [Javascript](https://www.javascript.com/)
-    - For DOM manipulation
-
-- [jQuery](https://jquery.com/)
-    - For simple DOM manipulation
-
-- [Python 3](https://docs.python.org/3/)
-    - 
-
-### Frameworks, Libaries, and Programs Used
-
-- [Bootstrap v4.4](https://getbootstrap.com/)
-    - For a website framework
-
-- [Django](https://docs.djangoproject.com/en/3.2/)
-    - For a full-stack framework
 
 ## Testing
 
