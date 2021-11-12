@@ -50,19 +50,20 @@ def calculate_product_rating(product_id):
     overall_rating = 0
     all_reviews = Review.objects.all()
     reviews = all_reviews.filter(product=product_id)
-    for review in reviews:
-        if review.rating == 'Five':
-            overall_rating += 5
-        elif review.rating == 'Four':
-            overall_rating += 4
-        elif review.rating == 'Three':
-            overall_rating += 3
-        elif review.rating == 'Two':
-            overall_rating += 2
-        elif review.rating == 'One':
-            overall_rating += 1
-    average_rating = overall_rating / len(reviews)
-    return average_rating
+    if reviews:
+        for review in reviews:
+            if review.rating == 'Five':
+                overall_rating += 5
+            elif review.rating == 'Four':
+                overall_rating += 4
+            elif review.rating == 'Three':
+                overall_rating += 3
+            elif review.rating == 'Two':
+                overall_rating += 2
+            elif review.rating == 'One':
+                overall_rating += 1
+        average_rating = overall_rating / len(reviews)
+        return average_rating
 
 
 def product_detail(request, product_id):
