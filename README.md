@@ -68,6 +68,8 @@ My goal here is to create an attractive e-commerce book site. The site will have
 - Responsive on all device sizes
     - Products page will feature 6 books per row on extra large screens, 4 per row on large, 3 per row on medium, and 1 per row on small.
 
+- Full CRUD functionality for superusers.
+
 ### Features Left to Implement
 
 ## Technologies Used
@@ -125,9 +127,52 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 ## Testing
 
+- For validation of HTML I used [W3C Nu HTML checker](https://validator.w3.org/nu/)
+    - ![HTML checker results](/media/nu-html-checker-ms4.png)
+    - These were the results from the validator. As for errors 1-4 I thought the duplicated id was not a problem as one is for the desktop navbar and the other for mobile collapsable navbar.
+
+- For validation of CSS I used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - All CSS passed with no errors.
+
 ### Testing User Stories
 
+- Non-Registered Users
+
+    1. As a non-registered user, I can click on the all books link or the shop now button on the homepage to browse all avaliable books
+
+    2. As a non-registered user, I can use the search bar in the middle of the navbar to search for a book by title, author, or genre
+
+    3. As a non-registered user, I can navigate to a book I am interested in by clicking on the cover and reading any reviews that have been posted below
+
+    4. As a non-registered user, I can sign up by clicking the account icon and clicking sign up from the navbar
+
+- Registered Users
+
+    1. As a registered user, I can login/logout of my account using the account icon in the navbar
+
+    2. As a registered user, I can recover my password by using the forgot password link on the login page
+
+    3. As a registered user, I will receive an email to confirm my account after registering as shown in this picture:
+
+        - ![Email conformation](/media/ms4-email.png)
+
+    4. As a registered user, I can click the write a review link below a book's details to be taken to the page to write a review
+
 ### Further Testing
+
+- Testing the navbar
+    - Tested all links, searching, and genre filtering on desktop, tablet and mobile
+
+- Testing Stripe payments
+    - 
+
+- Testing Review posting
+    - Tested review posting by logging in and trying to submit for without comment to make sure it's required. Then by submitting a valid review which succeeds
+
+- Testing CRUD functionality for superusers
+    - Tested adding a product
+    - Tested editing a product
+    - Tested deleting a product
 
 ### Known Bugs
 
