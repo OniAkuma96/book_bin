@@ -96,10 +96,12 @@
                         {{ review.comment }}
                     </div>
                 </div>
+                {% if review.created_by == request.user %}
+                    <a class="text-danger" href="">Delete</a>
+                {% endif %}
                 <hr>
             {% endfor %}
             {% if user.is_authenticated %}
-                <hr>
                 <div class="row">
                     <div class="col-12 text-center m-1 p-1">
                         <a class="" href="{% url 'new_review' product.id %}">Write a review for {{ product.title }}</a>

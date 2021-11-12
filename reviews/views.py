@@ -33,3 +33,4 @@ def new_review(request, product_id):
     }
 
     return render(request, 'reviews/new_review.html', context)
+    
