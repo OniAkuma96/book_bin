@@ -171,7 +171,7 @@ My goal here is to create an attractive e-commerce book site. The site will have
     - Users can completely remove items from their bag
 
 - Testing Stripe payments
-    - First I tested a successful payment with card number 4242 4242 4242 4242. The loading spinner correctly comes up, the order is successful and the order summary is correctly displayed with a toast message to the user that their order was successful
+    - First I tested a successful payment with card number 4242 4242 4242 4242. The loading spinner correctly comes up, the order is successful and the order summary is correctly displayed with a toast message to the user that their order was successful. However the confirmation email does not send and the webhook is getting a 500 error and I'm not sure how to fix this
     - Next I tested an unsuccessful payment with card number 4000 0000 0000 9995. The payment fails and a message is displayed to the user telling them they have insufficient funds.
     - Testing webhooks: Here is the test for a payment_intent.payment_failed through the deployed heroku site:
         ![payment failed](/media/wh-test-payment-failed.png)
