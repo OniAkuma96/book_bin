@@ -72,6 +72,8 @@ My goal here is to create an attractive e-commerce book site. The site will have
 
 ### Features Left to Implement
 
+- Ideally I wanted the overall rating from reviews of a specific product to be displayed on the all products page but was not sure how to pass that infomation to it as it would need the product id of all the products
+
 ## Technologies Used
 
 ### Languages Used
@@ -163,11 +165,23 @@ My goal here is to create an attractive e-commerce book site. The site will have
 - Testing the navbar
     - Tested all links, searching, and genre filtering on desktop, tablet and mobile
 
+- Testing adding/removing products from bag
+    - Users can add items to their bag in the desired quantity, from 1 to 99 users cannot select less then 1 or more then 99 as intended
+    - Users can update quantity of an item in their bag as intended
+    - Users can completely remove items from their bag
+
 - Testing Stripe payments
+    - First I tested a successful payment with card number 4242 4242 4242 4242. The loading spinner correctly comes up, the order is successful and the order summary is correctly displayed with a toast message to the user that their order was successful
+    - Next I tested an unsuccessful payment with card number 4000 0000 0000 9995. The payment fails and a message is displayed to the user telling them they have insufficient funds.
+    - Testing webhooks: Here is the test for a payment_intent.payment_failed through the deployed heroku site:
+        ![payment failed](/media/wh-test-payment-failed.png)
     - 
+    
 
 - Testing Review posting
     - Tested review posting by logging in and trying to submit for without comment to make sure it's required. Then by submitting a valid review which succeeds
+    - As shown in the picture below the overall rating is calculated correctly and reviews display all the correct info
+    - ![Review test picture](/media/review-post-test.png)
 
 - Testing CRUD functionality for superusers
     - Tested adding a product
