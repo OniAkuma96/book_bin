@@ -104,7 +104,7 @@ class StripeWH_Handler:
                 content=f'Webhook received: {event["type"]} | SUCCESS: Verified order in database',
                 status=200)
         else:
-            Order = None
+            order = None
             try:
                 order = Order.objects.create(
                     full_name=shipping_details.name,
