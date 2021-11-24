@@ -175,7 +175,13 @@ My goal here is to create an attractive e-commerce book site. The site will have
     - Next I tested an unsuccessful payment with card number 4000 0000 0000 9995. The payment fails and a message is displayed to the user telling them they have insufficient funds.
     - Testing webhooks: Here is the test for a payment_intent.payment_failed through the deployed heroku site:
         ![payment failed](/media/wh-test-payment-failed.png)
-    - 
+    - Testing successful payment
+        - I will now add some pictures showing that a successful order will be created in the database, successful webhook will be recieved on Stripe, and an email will be sent to the email address provided in the order form.
+        - ![Test order delivery form](/media/successful-order-test-1.png)
+        - ![Test order site confirmation](/media/successful-order-test-2.png)
+        - ![Test order created in database](/media/successful-order-test-3.png)
+        - ![Test order successful webhook from Stripe](/media/successful-order-test-4.png)
+        - ![Test order email sent](/media/successful-order-test-5.png)
     
 
 - Testing Review posting
